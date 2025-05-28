@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav .nav2 .nav1  {
+    border: 5px ridge black;
+    width: 150px;
+    height:50px;
+    overflow: hidden;
+    background-color: blue;
+    font-size: large;
+    text-align: center;
+    
+}
+.nav2{
+    border: 5px  black;
+
+
+}
+p{
+    height: 100px;
+    line-height: 50px; 
+}
+
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav .nav1 :hover{
+    background-color: yellow;
+}
