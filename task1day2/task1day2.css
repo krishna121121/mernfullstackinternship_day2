@@ -1,0 +1,24 @@
+
+.arrow-box {
+  display: inline-block;
+  background-color: #2e6b0b; /* Dark green */
+  color: white;
+  height: 30px;
+  width: 150px;
+  padding: 10px 10px;
+  position: relative;
+  font-weight: bold;
+}
+
+.arrow-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  
+  border-left: 20px solid #2e6b0b; /* Same green as background */
+}
